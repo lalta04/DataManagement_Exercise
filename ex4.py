@@ -12,6 +12,6 @@ print("Die 2: "+str(dice2))
 Total = dice1+dice2
 print("Total value: "+str(Total))
 if Total>=7:
-    print("You won")
+    print(name+" won!")
 else:
-    print("You lost")
+    print(name+" lost")
